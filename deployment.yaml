@@ -24,7 +24,7 @@ spec:
         app: greet-service
     spec:
       containers:
-      - image: sbtalk71/greet-service:1
+      - image: jakkamr/greet-service:1
         imagePullPolicy: IfNotPresent
         name: greet-service
        
